@@ -31,18 +31,17 @@ const clickFive = function(){
   currentSelection.classList.add('color-5');
 };
 
-const clickSquare = function(){
-  for (const element of canvasSquare){
-  element.classList.remove(element.classList[1]);
-  element.classList.add(currentSelection.classList[1]);
+const clickSquare = function(event){
+  event.target.classList.remove(event.target.classList[1]);
+  event.target.classList.add(currentSelection.classList[1]);
 }
-};
+for (const element of canvasSquare){
+  element.addEventListener('click',clickSquare);
+}
 
 colorOne.addEventListener('click', clickOne);
 colorTwo.addEventListener('click', clickTwo);
 colorThree.addEventListener('click', clickThree);
 colorFour.addEventListener('click', clickFour);
 colorFive.addEventListener('click', clickFive);
-
-canvasSquare[0].addEventListener('click', clickSquare);
 
