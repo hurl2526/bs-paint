@@ -3,9 +3,9 @@ const colorTwo = document.querySelector(".color-2");
 const colorThree = document.querySelector(".color-3");
 const colorFour = document.querySelector(".color-4");
 const colorFive = document.querySelector(".color-5");
-const canvasSquare = document.querySelectorAll(".square");
-
+const canvasSquare = document.querySelector(".square");
 const currentSelection = document.querySelector(".current-brush");
+
 const clickOne = function(){
   currentSelection.classList.remove(currentSelection.classList[1]);
   currentSelection.classList.add('color-1');
@@ -34,7 +34,7 @@ const clickFive = function(){
 const clickSquare = function(event){
   event.target.classList.remove(event.target.classList[1]);
   event.target.classList.add(currentSelection.classList[1]);
-}
+};
 for (const element of canvasSquare){
   element.addEventListener('click',clickSquare);
 }
