@@ -87,3 +87,27 @@
 .color-5 {
   background-color: white;
 }
+
+/* .color-6 {
+  background-color: black;
+} */
+
+.exploding {
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fclipground.com%2Fimages%2Fminesweeper-clipart-2.jpg&f=1&nofb=1');
+  background-size: cover;
+}
+
+.addAOne {
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpngriver.com%2Fwp-content%2Fuploads%2F2017%2F12%2Fnumber-digit-1-png-transparent-images-transparent-backgrounds-clipart-glossy-number-one-1.png&f=1&nofb=1');
+  background-size: cover;
+}
+
+.addATwo {
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.drodd.com%2Fimages15%2F2-14.jpg&f=1&nofb=1');
+  background-size: cover;
+}
+
+/* .flag {
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.sireasgallery.com%2Ficonset%2Fminesweeper%2FFlag_256x256_32.png&f=1&nofb=1');
+  background-size: cover
+} */
